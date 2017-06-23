@@ -1,0 +1,49 @@
+.header {
+  background-color: $header-background-color;
+  color: $header-text-color;
+  border-bottom: solid $main-color-dark 2px;
+  @include clearfix();
+}
+
+.header-content {
+  height: $header-height;
+  min-width: $landing-min-with;
+  max-width: $landing-max-with;
+  margin: auto;
+//  border: 1px red solid;
+}
+
+.logo {
+  float: left;
+}
+
+.logo-title {
+  font-family: "Arial";
+  font-size: 50px;
+  line-height: $header-height;
+  letter-spacing: $letter-spacing;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $menu-item-hover-text-color;
+}
+
+.header-menu {
+  float: right;
+}
+
+.header-menu-item {
+  padding: 0 $menu-item-padding-lr;
+  float: left;
+  vertical-align: middle;
+  line-height: $header-height;
+  letter-spacing: $letter-spacing;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $header-text-color;
+  cursor: pointer;
+
+  &:hover, &:active {
+    text-decoration: none;
+    color: $menu-item-hover-text-color;
+  }
+}

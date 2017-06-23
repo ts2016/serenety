@@ -1,0 +1,10 @@
+.container {
+  position: relative;
+  width: 100%;
+  max-width: $landing-max-with;
+  min-width: $landing-min-with;
+  height: 100%;
+  margin: auto;
+  padding: 0px;
+  @include box-sizing(border-box);
+}

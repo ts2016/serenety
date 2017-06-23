@@ -1,0 +1,21 @@
+.button {
+  width: auto;
+  border-style: solid;
+  border-width: $button-border-width;
+  border-radius: $button-border-radius;
+  margin: 1px;
+  padding: 5px;
+  color: $white;
+}
+
+.button-primary {
+  border-color: $button-primary-border-color;
+  background-color: $button-primary-color;
+
+  &:hover {
+    color: $white;
+    border-color: $button-primary-border-color-hover;
+    background-color: $button-primary-color-hover;
+    text-decoration: none;
+  }
+}

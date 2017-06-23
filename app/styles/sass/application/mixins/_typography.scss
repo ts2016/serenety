@@ -1,0 +1,12 @@
+
+@mixin h-tag($i) {
+  .h#{$i} {
+    font-size: nth($h-sizes, $i);
+  }
+}
+
+@mixin h-tags {
+  @for $i from 1 through 6 {
+    @include h-tag($i);
+  }
+}

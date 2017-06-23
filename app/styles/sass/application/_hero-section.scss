@@ -1,0 +1,34 @@
+
+.hero {
+  min-width: $landing-min-with;
+  background-image: image_url("developer-main-background.png");
+  background-size: 1900px;
+  background-repeat: no-repeat;
+  height: 500px;
+  //border-bottom: solid $main-color 2px;
+  position: relative;
+}
+
+.hero-panel {
+  opacity: 0.97;
+  background-color: $hero-panel-bg-color;
+  position: absolute;
+  bottom: 0;
+}
+
+.hero-title {
+  opacity: initial;
+  padding-top: 50px;
+  margin: 0 auto;
+  font-size: 5rem;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $menu-item-hover-text-color;
+}
+
+.hero-content {
+  margin: 30px;
+  text-align: center;
+  color: $menu-item-hover-text-color;
+}

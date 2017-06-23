@@ -1,0 +1,49 @@
+<div class="container">
+  <h2>Grid</h2>
+
+  <div class="row">
+    <div class="column-3">
+      <div class="example"> column-3</div>
+    </div>
+    <div class="column-3">
+      <div class="example"> column-3</div>
+    </div>
+    <div class="column-3">
+      <div class="example"> column-3</div>
+    </div>
+    <div class="column-3">
+      <div class="example"> column-3</div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column-7">
+      <div class="example"> column-7</div>
+    </div>
+    <div class="column-3">
+      <div class="example"> column-3</div>
+    </div>
+    <div class="column-2">
+      <div class="example"> column-2</div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column-7 column-offset-2">
+      <div class="example"> column-7</div>
+    </div>
+    <div class="column-3">
+      <div class="example"> column-3</div>
+    </div>
+  </div>
+
+  <h2>Todo list</h2>
+
+  <ul>
+    {{#each model as |todo|}}
+      <li>(Id = {{todo.id}}) {{todo.title}}</li>
+    {{/each}}
+  </ul>
+
+  {{outlet}}
+</div>

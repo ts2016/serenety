@@ -1,0 +1,98 @@
+
+// Grid
+$grid-columns: 12 !default;
+$grid-border-lr: 10px !default;
+
+// Gray colors
+$white:        #fff !default;
+$gray-base:    #000 !default;
+$gray-darker:  lighten($gray-base, 13.5%) !default; // #222
+$gray-dark:    lighten($gray-base, 20%) !default;   // #333
+$gray:         lighten($gray-base, 33.5%) !default; // #555
+$gray-light:   lighten($gray-base, 46.7%) !default; // #777
+$gray-lighter: lighten($gray-base, 93.5%) !default; // #eee
+
+// Colors
+$main-color-darker:          #008500 !default;
+$main-color-dark:            #269926 !default;
+$main-color:                 #00CC00 !default;
+$main-color-light:           #39E639 !default;
+$main-color-lighter:         #67E667 !default;
+
+$secondary-color-a-darker:   #033E6B !default;
+$secondary-color-a-dark:     #25567B !default;
+$secondary-color-a:          #0B61A4 !default;
+$secondary-color-a-light:    #3F92D2 !default;
+$secondary-color-a-lighter:  #66A3D2 !default;
+
+$secondary-color-b-darker:   #A65F00 !default;
+$secondary-color-b-dark:     #BF8230 !default;
+$secondary-color-b:          #FF9200 !default;
+$secondary-color-b-light:    #FFAD40 !default;
+$secondary-color-b-lighter:  #FFC373 !default;
+
+$additional-color-a-darker:  #A60000 !default;
+$additional-color-a-dark:    #BF3030 !default;
+$additional-color-a:         #FF0000 !default;
+$additional-color-a-light:   #FF4040 !default;
+$additional-color-a-lighter: #FF7373 !default;
+
+// Landing sizes
+$landing-max-with: 1024px;
+$landing-min-with: 800px;
+
+// Font
+$font-family-base: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-size-base: 1.5em;
+
+// Text
+$text-color: $gray-darker;
+
+// Typography
+$h1-size: 50rem !default;
+$h2-size: 42rem !default;
+$h3-size: 36rem !default;
+$h4-size: 30rem !default;
+$h5-size: 24rem !default;
+$h6-size: 15rem !default;
+
+$h-sizes: ($h1-size, $h2-size, $h3-size, $h4-size, $h5-size, $h6-size);
+
+$letter-spacing: 0.1rem !default;
+
+// Links
+$link-color: $secondary-color-a !default;
+$link-hover-color: $secondary-color-a-lighter !default;
+$link-hover-background-color: $secondary-color-a-darker !default;
+$link-hover-decoration: underline !default;
+
+// Header
+$header-background-color: $white !default;
+//$header-background-color: $main-color-lighter !default;
+$header-text-color: $gray-darker !default;
+$header-height: 100px !default;
+
+// Hero
+//$hero-panel-bg-color: lighten($gray-light, 30%) !default;
+//$hero-panel-bg-color: lighten($additional-color-a-light, 30%) !default;
+//$hero-panel-bg-color: lighten($secondary-color-b-lighter, 10%) !default;
+$hero-panel-bg-color: lighten($secondary-color-a-lighter, 30%) !default;
+
+// Menu
+$menu-item-padding-lr: 15px !default;
+$menu-item-hover-text-color: $main-color-dark !default;
+
+// Button
+$button-border-width: 1px !default;
+$button-border-radius: 4px !default;
+
+$button-primary-color: $secondary-color-a !default;
+$button-primary-border-color: $secondary-color-a-dark !default;
+
+$button-primary-color-hover: $secondary-color-a-light !default;
+$button-primary-border-color-hover: $secondary-color-a !default;
+
+$button-font-size: 11px !default;
+$button-height: 38px !default;
+$button-font-weight: 600 !default;
+$button-padding-lr: 30px !default;

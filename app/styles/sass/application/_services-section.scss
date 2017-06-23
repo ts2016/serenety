@@ -1,0 +1,30 @@
+
+.services {
+  min-width: $landing-min-with;
+  background-image: image_url("developer-main-background.png"), linear-gradient(to right, $main-color-lighter, $secondary-color-a-lighter);
+  background-size: 1900px;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.services-inner {
+  min-width: $landing-min-with;
+  height: 500px;
+  background-image: linear-gradient(to right, $main-color, $secondary-color-a);
+  //opacity: 0.3;
+}
+
+.service-panel {
+  opacity: 1;
+  margin-top: 5px;
+  background-color: $main-color-dark;
+}
+
+.service-panel-content {
+  padding: 10px;
+}
+
+.service-title {
+  text-align: center;
+  color: $white;
+}

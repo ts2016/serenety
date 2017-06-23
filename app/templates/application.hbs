@@ -1,0 +1,82 @@
+<header class="header">
+  <div class="container">
+    <div class="row">
+      <div class="logo">
+        <div class="logo-img"></div>
+        <div class="logo-title">
+          Serenety
+        </div>
+      </div>
+      <nav class="header-menu">
+        {{#link-to "application"}}
+          <div class="header-menu-item">Home</div>{{/link-to}}
+        {{#link-to "about"}}
+          <div class="header-menu-item">About</div>{{/link-to}}
+        {{#link-to "todos"}}
+          <div class="header-menu-item">Todo</div>{{/link-to}}
+        {{#link-to "auth.login"}}
+          <div class="header-menu-item">Login</div>{{/link-to}}
+      </nav>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+
+    <div class="hero-panel">
+      <div class="row">
+
+        <div class="column-offset-1 column-10">
+          <h1 class="hero-title">
+            Hello. We offer smart decision for your business.
+          </h1>
+        </div>
+      </div>
+      <div class="row">
+        <p class="hero-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+          laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+          esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+          officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="services">
+  <div class="services-inner">
+  <div class="container">
+    <div class="row">
+      <div class="column-4">
+        <div class="service-panel">
+          <div class="service-panel-content">
+            <div class="service-title">
+              Service 1
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+          </div>
+        </div>
+      </div>
+      <div class="column-4">
+        <div class="service-panel">
+          <div class="service-panel-content">
+            <div class="service-title">
+              <h2>Service 2</h2>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+          </div>
+        </div>
+      </div>
+      <div class="column-4">
+        <div class="service-panel">
+          <h2>Service 3</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+{{outlet}}
